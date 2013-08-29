@@ -1,0 +1,48 @@
+{
+	"name": "daytime",
+	"version": "0.0.0",
+	"description": "combine two Date objects, \"day\" and \"time\", into a new Date object",
+	"main": "index.js",
+	"scripts": {
+		"test": "node test.js"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"tape": "~1.0.4"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/ljharb/node-daytime.git"
+	},
+	"keywords": [
+		"date",
+		"day",
+		"time",
+		"combine",
+		"merge"
+	],
+	"author": "Jordan Harband",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ljharb/node-daytime/issues"
+	},
+	"testling": {
+		"files": "test/index.js",
+		"browsers": [
+			"iexplore/6.0..latest",
+			"firefox/3.0..6.0",
+			"firefox/15.0..latest",
+			"firefox/nightly",
+			"chrome/4.0..10.0",
+			"chrome/20.0..latest",
+			"chrome/canary",
+			"opera/10.0..latest",
+			"opera/next",
+			"safari/4.0..latest",
+			"ipad/6.0..latest",
+			"iphone/6.0..latest",
+			"android-browser/4.2"
+		]
+	}
+}
+
