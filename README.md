@@ -3,6 +3,8 @@
 
 [![Build Status][3]][4] [![dependency status][5]][6] [![dev dependency status][7]][8]
 
+[![npm badge][11]][1]
+
 [![browser support][9]][10]
 
 npm module to combine two Date objects, "day" and "time", into a new Date object
@@ -31,4 +33,5 @@ Simply clone the repo, `npm install`, and run `npm test`
 [8]: https://david-dm.org/ljharb/node-daytime#info=devDependencies
 [9]: https://ci.testling.com/ljharb/node-daytime.png
 [10]: https://ci.testling.com/ljharb/node-daytime
+[11]: https://nodei.co/npm/daytime.png?downloads=true&stars=true
 
