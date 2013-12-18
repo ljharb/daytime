@@ -27,7 +27,7 @@
 		"url": "https://github.com/ljharb/node-daytime/issues"
 	},
 	"testling": {
-		"files": "test/index.js",
+		"files": "test.js",
 		"browsers": [
 			"iexplore/6.0..latest",
 			"firefox/3.0..6.0",
