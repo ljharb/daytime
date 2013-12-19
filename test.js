@@ -2,6 +2,8 @@
 
 "use strict";
 
+require('es5-shim');
+
 var test = require('tape');
 var daytime = require('./index');
 var undefined;
