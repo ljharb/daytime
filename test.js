@@ -17,7 +17,7 @@ test('argument validation', function (t) {
 	var error = new TypeError('both day and time must be Date objects');
 	var date = new Date();
 	var args = [
-		undefined,
+		'undefined',
 		null,
 		true,
 		false,
@@ -32,7 +32,7 @@ test('argument validation', function (t) {
 	args.forEach(function (arg) {
 		cases.push([date, arg], [arg, date]);
 		args.forEach(function (arg2) {
-			cases.push([arg, arg2]);
+			cases.push([arg === 'undefined' ? undefined : arg, arg2 === 'undefined' ? undefined : arg2]);
 			if (arg !== arg2) {
 				cases.push([arg2, arg]);
 			}
