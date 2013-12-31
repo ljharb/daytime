@@ -12,7 +12,7 @@
 	"devDependencies": {
 		"tape": "~2.3.2",
 		"es5-shim": "~2.3.0",
-		"covert": "~0.2.0"
+		"covert": "~0.3.0"
 	},
 	"repository": {
 		"type": "git",
