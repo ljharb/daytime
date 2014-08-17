@@ -4,7 +4,7 @@
 	"description": "combine two Date objects, \"day\" and \"time\", into a new Date object",
 	"main": "index.js",
 	"scripts": {
-		"test": "node test.js && npm run coverage-quiet",
+		"test": "npm run lint && node test.js && npm run coverage-quiet",
 		"coverage": "covert test.js",
 		"coverage-quiet": "covert test.js --quiet",
 		"lint": "jscs *.js"
