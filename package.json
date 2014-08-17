@@ -6,13 +6,15 @@
 	"scripts": {
 		"test": "node test.js && npm run coverage-quiet",
 		"coverage": "covert test.js",
-		"coverage-quiet": "covert test.js --quiet"
+		"coverage-quiet": "covert test.js --quiet",
+		"lint": "jscs *.js"
 	},
 	"dependencies": {},
 	"devDependencies": {
 		"tape": "~2.14.0",
 		"es5-shim": "~4.0.0",
-		"covert": "~1.0.0"
+		"covert": "~1.0.0",
+		"jscs": "~1.5.9"
 	},
 	"repository": {
 		"type": "git",
