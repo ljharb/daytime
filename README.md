@@ -1,5 +1,5 @@
 
-#node-daytime <sup>[![Version Badge][2]][npm-url]</sup>
+#node-daytime <sup>[![Version Badge][npm-version-png]][npm-url]</sup>
 
 [![Build Status][3]][4] [![dependency status][5]][6] [![dev dependency status][7]][8]
 
@@ -24,7 +24,7 @@ assert.equal(daytime(day, time), expected);
 Simply clone the repo, `npm install`, and run `npm test`
 
 [npm-url]: https://npmjs.org/package/daytime
-[2]: http://vb.teelaun.ch/ljharb/node-daytime.svg
+[npm-version-png]: http://vb.teelaun.ch/ljharb/node-daytime.svg
 [3]: https://travis-ci.org/ljharb/node-daytime.svg
 [4]: https://travis-ci.org/ljharb/node-daytime
 [5]: https://david-dm.org/ljharb/node-daytime.svg
