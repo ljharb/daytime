@@ -1,7 +1,9 @@
 
 #node-daytime <sup>[![Version Badge][npm-version-png]][npm-url]</sup>
 
-[![Build Status][3]][4] [![dependency status][5]][6] [![dev dependency status][7]][8]
+[![Build Status][travis-svg]][travis-url]
+[![dependency status][5]][6]
+[![dev dependency status][7]][8]
 
 [![npm badge][11]][npm-url]
 
@@ -25,8 +27,8 @@ Simply clone the repo, `npm install`, and run `npm test`
 
 [npm-url]: https://npmjs.org/package/daytime
 [npm-version-png]: http://vb.teelaun.ch/ljharb/node-daytime.svg
-[3]: https://travis-ci.org/ljharb/node-daytime.svg
-[4]: https://travis-ci.org/ljharb/node-daytime
+[travis-svg]: https://travis-ci.org/ljharb/node-daytime.svg
+[travis-url]: https://travis-ci.org/ljharb/node-daytime
 [5]: https://david-dm.org/ljharb/node-daytime.svg
 [6]: https://david-dm.org/ljharb/node-daytime
 [7]: https://david-dm.org/ljharb/node-daytime/dev-status.svg
