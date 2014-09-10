@@ -5,7 +5,7 @@
 [![dependency status][deps-svg]][deps-url]
 [![dev dependency status][dev-deps-svg]][dev-deps-url]
 
-[![npm badge][11]][npm-url]
+[![npm badge][npm-badge-png]][npm-url]
 
 [![browser support][testling-png]][testling-url]
 
@@ -35,5 +35,5 @@ Simply clone the repo, `npm install`, and run `npm test`
 [dev-deps-url]: https://david-dm.org/ljharb/node-daytime#info=devDependencies
 [testling-png]: https://ci.testling.com/ljharb/node-daytime.png
 [testling-url]: https://ci.testling.com/ljharb/node-daytime
-[11]: https://nodei.co/npm/daytime.png?downloads=true&stars=true
+[npm-badge-png]: https://nodei.co/npm/daytime.png?downloads=true&stars=true
 
