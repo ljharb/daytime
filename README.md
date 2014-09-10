@@ -2,8 +2,8 @@
 #node-daytime <sup>[![Version Badge][npm-version-png]][npm-url]</sup>
 
 [![Build Status][travis-svg]][travis-url]
-[![dependency status][5]][6]
-[![dev dependency status][7]][8]
+[![dependency status][deps-svg]][deps-url]
+[![dev dependency status][dev-deps-svg]][dev-deps-url]
 
 [![npm badge][11]][npm-url]
 
@@ -29,10 +29,10 @@ Simply clone the repo, `npm install`, and run `npm test`
 [npm-version-png]: http://vb.teelaun.ch/ljharb/node-daytime.svg
 [travis-svg]: https://travis-ci.org/ljharb/node-daytime.svg
 [travis-url]: https://travis-ci.org/ljharb/node-daytime
-[5]: https://david-dm.org/ljharb/node-daytime.svg
-[6]: https://david-dm.org/ljharb/node-daytime
-[7]: https://david-dm.org/ljharb/node-daytime/dev-status.svg
-[8]: https://david-dm.org/ljharb/node-daytime#info=devDependencies
+[deps-svg]: https://david-dm.org/ljharb/node-daytime.svg
+[deps-url]: https://david-dm.org/ljharb/node-daytime
+[dev-deps-svg]: https://david-dm.org/ljharb/node-daytime/dev-status.svg
+[dev-deps-url]: https://david-dm.org/ljharb/node-daytime#info=devDependencies
 [9]: https://ci.testling.com/ljharb/node-daytime.png
 [10]: https://ci.testling.com/ljharb/node-daytime
 [11]: https://nodei.co/npm/daytime.png?downloads=true&stars=true
