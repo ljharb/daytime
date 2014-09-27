@@ -1,6 +1,6 @@
 /*jslint node: true */
 
-"use strict";
+'use strict';
 
 require('es5-shim');
 

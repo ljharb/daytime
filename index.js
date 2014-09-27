@@ -1,7 +1,7 @@
 /*jslint node: true */
 
 module.exports = (function () {
-	"use strict";
+	'use strict';
 
 	var toStr = Object.prototype.toString;
 	var dateClass = '[object Date]';
