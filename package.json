@@ -14,7 +14,7 @@
 		"tape": "~3.0.3",
 		"es5-shim": "~4.0.5",
 		"covert": "1.0.0",
-		"jscs": "~1.8.1"
+		"jscs": "~1.9.0"
 	},
 	"repository": {
 		"type": "git",
