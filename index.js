@@ -1,5 +1,6 @@
 /*jslint node: true */
 'use strict';
+
 var toStr = Object.prototype.toString;
 var dateClass = '[object Date]';
 
@@ -16,4 +17,3 @@ module.exports = function daytime(day, time) {
 		time.getMinutes()
 	);
 };
-
