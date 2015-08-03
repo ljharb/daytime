@@ -4,17 +4,19 @@
 	"description": "combine two Date objects, \"day\" and \"time\", into a new Date object",
 	"main": "index.js",
 	"scripts": {
-		"test": "npm run lint && node test.js && npm run coverage-quiet",
+		"test": "npm run lint && node test.js && npm run coverage-quiet && npm run security",
 		"coverage": "covert test.js",
 		"coverage-quiet": "covert test.js --quiet",
-		"lint": "jscs *.js"
+		"lint": "jscs *.js",
+		"security": "nsp package"
 	},
 	"dependencies": {},
 	"devDependencies": {
 		"tape": "^4.0.1",
 		"es5-shim": "^4.1.10",
 		"covert": "^1.1.0",
-		"jscs": "^2.0.0"
+		"jscs": "^2.0.0",
+		"nsp": "^1.0.3"
 	},
 	"repository": {
 		"type": "git",
