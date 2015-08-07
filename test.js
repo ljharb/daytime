@@ -1,12 +1,9 @@
-/*jslint node: true */
-
 'use strict';
 
 require('es5-shim');
 
 var test = require('tape');
 var daytime = require('./index');
-var undefined;
 
 var toStr = Object.prototype.toString;
 var type = function (item) {

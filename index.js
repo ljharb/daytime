@@ -1,4 +1,3 @@
-/*jslint node: true */
 'use strict';
 
 var toStr = Object.prototype.toString;
