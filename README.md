@@ -26,7 +26,7 @@ assert.equal(daytime(day, time), expected);
 Simply clone the repo, `npm install`, and run `npm test`
 
 [npm-url]: https://npmjs.org/package/daytime
-[npm-version-png]: http://vb.teelaun.ch/ljharb/node-daytime.svg
+[npm-version-png]: http://versionbadg.es/ljharb/node-daytime.svg
 [travis-svg]: https://travis-ci.org/ljharb/node-daytime.svg
 [travis-url]: https://travis-ci.org/ljharb/node-daytime
 [deps-svg]: https://david-dm.org/ljharb/node-daytime.svg
