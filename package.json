@@ -27,7 +27,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/ljharb/node-daytime.git"
+		"url": "git://github.com/ljharb/daytime.git"
 	},
 	"keywords": [
 		"date",
@@ -39,7 +39,7 @@
 	"author": "Jordan Harband",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/ljharb/node-daytime/issues"
+		"url": "https://github.com/ljharb/daytime/issues"
 	},
 	"testling": {
 		"files": "test.js",

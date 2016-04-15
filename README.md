@@ -1,5 +1,5 @@
 
-#node-daytime <sup>[![Version Badge][npm-version-png]][npm-url]</sup>
+#daytime <sup>[![Version Badge][npm-version-png]][npm-url]</sup>
 
 [![Build Status][travis-svg]][travis-url]
 [![dependency status][deps-svg]][deps-url]
@@ -26,14 +26,14 @@ assert.equal(daytime(day, time), expected);
 Simply clone the repo, `npm install`, and run `npm test`
 
 [npm-url]: https://npmjs.org/package/daytime
-[npm-version-png]: http://versionbadg.es/ljharb/node-daytime.svg
-[travis-svg]: https://travis-ci.org/ljharb/node-daytime.svg
-[travis-url]: https://travis-ci.org/ljharb/node-daytime
-[deps-svg]: https://david-dm.org/ljharb/node-daytime.svg
-[deps-url]: https://david-dm.org/ljharb/node-daytime
-[dev-deps-svg]: https://david-dm.org/ljharb/node-daytime/dev-status.svg
-[dev-deps-url]: https://david-dm.org/ljharb/node-daytime#info=devDependencies
-[testling-png]: https://ci.testling.com/ljharb/node-daytime.png
-[testling-url]: https://ci.testling.com/ljharb/node-daytime
+[npm-version-png]: http://versionbadg.es/ljharb/daytime.svg
+[travis-svg]: https://travis-ci.org/ljharb/daytime.svg
+[travis-url]: https://travis-ci.org/ljharb/daytime
+[deps-svg]: https://david-dm.org/ljharb/daytime.svg
+[deps-url]: https://david-dm.org/ljharb/daytime
+[dev-deps-svg]: https://david-dm.org/ljharb/daytime/dev-status.svg
+[dev-deps-url]: https://david-dm.org/ljharb/daytime#info=devDependencies
+[testling-png]: https://ci.testling.com/ljharb/daytime.png
+[testling-url]: https://ci.testling.com/ljharb/daytime
 [npm-badge-png]: https://nodei.co/npm/daytime.png?downloads=true&stars=true
 
