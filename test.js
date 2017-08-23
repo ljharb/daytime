@@ -39,7 +39,7 @@ test('argument validation', function (t) {
 	t.plan(cases.length + 1);
 	t.equal(cases.length, 171);
 	cases.forEach(function (aCase) {
-		t.throws(function () {
+		t['throws'](function () {
 			daytime.apply(null, aCase);
 		}, error, aCase.map(type).join(' + '));
 	});
