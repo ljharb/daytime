@@ -33,6 +33,9 @@
 		"merge"
 	],
 	"author": "Jordan Harband",
+	"funding": {
+		"url": "https://github.com/sponsors/ljharb"
+	},
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/ljharb/daytime/issues"
