@@ -1,6 +1,6 @@
 {
 	"name": "daytime",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "combine two Date objects, \"day\" and \"time\", into a new Date object",
 	"main": "index.js",
 	"scripts": {
