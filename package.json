@@ -18,7 +18,7 @@
 		"aud": "^1.1.2",
 		"covert": "^1.1.1",
 		"es5-shim": "^4.5.14",
-		"eslint": "^7.7.0",
+		"eslint": "^7.9.0",
 		"safe-publish-latest": "^1.1.4",
 		"tape": "^5.0.1"
 	},
