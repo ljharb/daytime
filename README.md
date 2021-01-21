@@ -1,6 +1,5 @@
 # daytime <sup>[![Version Badge][npm-version-png]][npm-url]</sup>
 
-[![Build Status][travis-svg]][travis-url]
 [![dependency status][deps-svg]][deps-url]
 [![dev dependency status][dev-deps-svg]][dev-deps-url]
 
@@ -23,9 +22,7 @@ assert.equal(daytime(day, time), expected);
 Simply clone the repo, `npm install`, and run `npm test`
 
 [npm-url]: https://npmjs.org/package/daytime
-[npm-version-png]: http://versionbadg.es/ljharb/daytime.svg
-[travis-svg]: https://travis-ci.org/ljharb/daytime.svg
-[travis-url]: https://travis-ci.org/ljharb/daytime
+[npm-version-png]: https://versionbadg.es/ljharb/daytime.svg
 [deps-svg]: https://david-dm.org/ljharb/daytime.svg
 [deps-url]: https://david-dm.org/ljharb/daytime
 [dev-deps-svg]: https://david-dm.org/ljharb/daytime/dev-status.svg
