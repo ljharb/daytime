@@ -5,20 +5,19 @@
 	"main": "index.js",
 	"scripts": {
 		"prepublish": "safe-publish-latest",
-		"pretest": "npm run --silent lint",
-		"test": "npm run --silent tests-only && npm run coverage -- --quiet",
-		"tests-only": "node test",
+		"pretest": "npm run lint",
+		"test": "npm run tests-only",
+		"tests-only": "nyc tape 'test/**/*.js'",
 		"posttest": "npx aud --production",
-		"coverage": "covert test/index.js",
 		"lint": "eslint ."
 	},
 	"dependencies": {},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^17.2.0",
 		"aud": "^1.1.2",
-		"covert": "^1.1.1",
 		"es5-shim": "^4.5.14",
 		"eslint": "^7.9.0",
+		"nyc": "^10.3.2",
 		"safe-publish-latest": "^1.1.4",
 		"tape": "^5.0.1"
 	},
