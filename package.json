@@ -4,7 +4,8 @@
 	"description": "combine two Date objects, \"day\" and \"time\", into a new Date object",
 	"main": "index.js",
 	"scripts": {
-		"prepublish": "safe-publish-latest",
+		"prepublishOnly": "safe-publish-latest",
+		"prepublish": "not-in-publish || npm run prepublishOnly",
 		"pretest": "npm run lint",
 		"test": "npm run tests-only",
 		"tests-only": "nyc tape 'test/**/*.js'",
