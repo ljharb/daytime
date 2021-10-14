@@ -1,8 +1,8 @@
 'use strict';
 
-require('es5-shim');
-
 var test = require('tape');
+var isDate = require('is-date-object');
+
 var daytime = require('../');
 
 var toStr = Object.prototype.toString;
@@ -63,7 +63,7 @@ test('combining dates', function (t) {
 	t.notEqual(actual, day, 'actual is not a mutated `day` Date');
 	t.notEqual(actual, time, 'actual is not a mutated `time` Date');
 
-	t.equal(type(actual), type(expected), 'actual is a Date object');
+	t.ok(isDate(actual), 'actual is a Date object');
 	t.equal(actual.getTime(), expected.getTime(), 'actual matches expected');
 
 	t.end();
